@@ -50,7 +50,7 @@
 
 <script lang="ts" setup>
 import './assets/common.css'
-import { defineComponent, ref, reactive, computed, watch } from 'vue'
+import { defineComponent, ref, reactive, computed, watch, onMounted } from 'vue'
 import PointCanvas from './components/PointCanvas.vue'
 import StepChooser from './components/StepChooser.vue'
 import { Point } from './algorithm/Point'
@@ -70,6 +70,12 @@ let pointPair = ref([{ x: 0, y: 0 }, { x: 0, y: 0 }])
 let pointCount = ref(20)
 let runningTimeMs = ref(0)
 let currentStep = ref(0)
+
+onMounted(() => {
+  if (! navigator.userAgent.includes('Chrome')) {
+    window.alert('Only works on Chrome / Chromium-based browsers')
+  }
+})
 
 const worker = new AlgoWorker()
 
