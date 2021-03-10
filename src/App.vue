@@ -13,7 +13,7 @@
         :point-b-y="pointPair[1].y"
       />
     </main>
-    <form class="tools" action="">
+    <div class="tools" action="">
       <h2>Tools</h2>
       <fieldset>
         <legend>Generate Points</legend>
@@ -44,7 +44,7 @@
           <step-chooser :length="resultSequence.length" v-model:val="currentStep" />
         </div>
       </fieldset>
-    </form>
+    </div>
   </div>
 </template>
 
