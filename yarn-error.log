@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/Cellar/node/14.4.0/bin/node /Users/panda2134/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/panda2134/.zinit/polaris/sbin:/Users/panda2134/.zinit/polaris/bin:/Users/panda2134/.zinit/polaris/usr/sbin:/Users/panda2134/.zinit/polaris/usr/bin:/usr/local/opt/ruby/bin:/Users/panda2134/.yarn/bin:/Users/panda2134/.config/yarn/global/node_modules/.bin:/Users/panda2134/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/panda2134/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Users/panda2134/.dotnet/tools:/Users/panda2134/Library/Python/3.7/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, symlink '../../../../@babel/parser/bin/babel-parser.js' -> '/Users/panda2134/SeaDrive/My Libraries/PrivateLib/Spring2021/algorithm/assignment/3/points/node_modules/@vue/compiler-core/node_modules/.bin/parser'
+
+npm manifest: 
+  {
+    "name": "points",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.0.5"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.1.5",
+      "@vue/compiler-sfc": "^3.0.5",
+      "typescript": "^4.1.3",
+      "vite": "^2.0.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

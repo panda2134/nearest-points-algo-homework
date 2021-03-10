@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-left:0.1em;
+  margin-right:0.1em;
+  border-radius: 7px;
+  background: linear-gradient(145deg, #ffffff, #dfdfe6);
+  border: none;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  outline: none !important;
+}
+
+.btn:hover {
+  background-color: #307eff;
+}
+
+.btn:active {
+  background-color: #206eff;
+}
+
+.btn:disabled {
+  color: #aaa;
+}
+
+.input {
+  background: linear-gradient(145deg, #dfdfe6, #ffffff);
+  margin-right: 0.8em;
+  border: none;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  border-radius: 7px;
+  outline: none !important;
+}
+
+h4, h5, h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.checkbox-label > input {
+  margin-right: 5px;
+  width: 14px;
+  height: 14px;
+}
