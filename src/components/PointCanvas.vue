@@ -1,5 +1,5 @@
 <template>
-  <canvas ref="canvasObj" width="640" height="480" @click="addPoint" v-if="props.points.length < 1000"></canvas>
+  <canvas ref="canvasObj" width="640" height="480" @click="addPoint" v-if="props.points.length < 5000"></canvas>
   <div class="error-hint" v-else>Sorry, there're too many points to display.</div>
 </template>
 

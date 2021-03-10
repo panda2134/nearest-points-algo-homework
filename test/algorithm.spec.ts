@@ -21,10 +21,10 @@ describe('DivideAndConquer', function () {
   })
 
   describe('Complexity', function() {
-    this.timeout(12 * 1000)
+    this.timeout(20 * 1000)
 
-    const casesComplexity = [20, 40, 100, 200, 500, 1000, 2745, 3000, 5000, 7719, 10000, 20000,
-      50000, 100000, 200000, 399999, 400000, 800000, 1091723, 2124039, 2900281]
+    const casesComplexity = [20, 40, 100, 200, 500, 1000, 2000, 2745, 3000, 5000, 7719, 10000, 20000,
+      50000, 100000, 200000, 399999, 400000, 800000, 1091723, 2124039]
     for (let x of casesComplexity) {
       it(`should pass the case of ${x} points`, generateNCase(x, false))
     }
