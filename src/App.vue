@@ -38,7 +38,13 @@
       </fieldset>
       <fieldset>
         <legend>Result and Replay</legend>
-        <div class="data">Distance: {{ marked && !computing ? distance.toFixed(3) : 'none' }}</div>
+        <div class="data">
+          Distance: {{ marked && !computing ? distance.toFixed(3) : 'none' }}
+        </div>
+        <div class="data" v-if="marked && !computing">
+          <div>Point A: ({{ pointPair[0].x.toFixed(2) }}, {{ pointPair[0].y.toFixed(2) }})</div>
+          <div>Point B: ({{ pointPair[1].x.toFixed(2) }}, {{ pointPair[1].y.toFixed(2) }})</div>
+        </div>
         <div v-show="!computing && !first">
           <h4>Step chooser</h4>
           <step-chooser :length="resultSequence.length" v-model:val="currentStep" />
