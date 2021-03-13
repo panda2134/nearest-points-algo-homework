@@ -1,6 +1,30 @@
-# Vue 3 + Typescript + Vite
+# nearest-points-algo-homework
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+## Installation
+
+You need Node.js 14+ installed on your computer
+
+Install yarn:
+```bash
+$ npm install -g yarn
+```
+
+Install required packages
+```bash
+$ git clone https://github.com/panda2134/nearest-points-algo-homework.git
+$ cd nearest-points-algo-homework
+$ yarn
+```
+
+Start dev server:
+```bash
+$ yarn dev
+```
+
+Run tests (set `-s -1` to always display run time):
+```bash
+$ yarn test -s -1
+```
 
 ## Recommended IDE Setup
 
