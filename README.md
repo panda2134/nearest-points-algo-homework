@@ -2,7 +2,7 @@
 
 ## Installation
 
-You need Node.js 14+ installed on your computer
+You need Node.js 14+ installed on your computer.
 
 Install yarn:
 ```bash
